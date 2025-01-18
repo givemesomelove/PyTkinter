@@ -2,7 +2,8 @@ import tkinter as tk
 import tkinter.ttk as ttk
 import tkinter.messagebox as msgbox
 import rootUI,labelUI, buttonUI, entryUI, textUI, frameUI, checkboxUI, radiobuttonUI
-import listboxUI, spinboxUI, canvasUI, menuUI, packUI
+import listboxUI, spinboxUI, canvasUI, menuUI, packUI, gridUI, placeUI, panedWindowUI
+import ttkUI, comboboxUI, notebookUI, progressbarUI, treeviewUI
 
 def main():
 
@@ -19,7 +20,7 @@ def main():
 
     # frameUI.makeFrame(root)
 
-    checkboxUI.makeCheckbox(root)
+    # checkboxUI.makeCheckbox(root)
 
     # radiobuttonUI.makeRadiobutton(root)
 
@@ -29,7 +30,11 @@ def main():
 
     # canvasUI.makeCanvasUI(root)
 
-    packUI.makePack(root)
+    # packUI.makePack(root)
+
+    # gridUI.makeGrid(root)
+
+    treeviewUI.makeTreeview(root)
 
     root.mainloop()
 

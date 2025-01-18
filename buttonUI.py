@@ -1,5 +1,6 @@
 import tkinter as tk
 
+#Button在mac上不显示背景色，说是要用tkmacosx
 def makeButton(root):
     button = tk.Button(
     root, 
